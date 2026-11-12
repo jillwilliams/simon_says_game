@@ -15,7 +15,7 @@ body {
 } 
 
 .container {
-    /* border: 1px red solid; */
+    border: 1px red solid;
     color: white;
     width: 90%;
     height: 900px;
@@ -181,5 +181,14 @@ body {
     border: 2px black solid;
     scale: 1.1;
     transition: 1s;
+}
+
+@media (max-width: 768px) {
+    .start-game-button {
+        z-index: 1000;
+    }
+    .start-game-button:hover {
+        z-index: 1000;
+    }
 }
 
