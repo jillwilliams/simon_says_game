@@ -11,10 +11,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Iceland";
 } 
 
 .container {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     color: white;
     width: 90%;
     height: 900px;
@@ -29,19 +30,21 @@ body {
 
 /* simon says images */
 .simon-image {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     margin: 30px;
 }
 
 /* text: simon says */
 .title-div h1 {
     text-align: center;
+    font-size: 60px;
 }
 
 /* text: directions */
 .directions h3 {
     text-align: center;
+    font-size: 50px;
 }
 
 /* the div for start button */
@@ -63,8 +66,8 @@ body {
 
 /* the outer circle of the gameboard */
 .outer-circle {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border: 2px solid white;
     margin: 0px auto;
     border-radius: 50%;
@@ -79,12 +82,13 @@ body {
 
 /* green piece */
 .green-light {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     color: green;
     border: 2px black solid;
     background-color: green;
     border-bottom-right-radius: 50px;
+    cursor: pointer;
 }
 
 /* .green-light:hover {
@@ -97,11 +101,12 @@ body {
 
 /* red light */
 .red-light {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     color: crimson;
     border: 2px black solid;
     background-color: crimson;
+    cursor: pointer;
 }
 
 /* .red-light:hover {
@@ -109,7 +114,7 @@ body {
 } */
 
 .red-light.active {
-    background-color: #ff0000; 
+    background-color: red; 
 }
 
 /* the second row */
@@ -119,11 +124,12 @@ body {
 
 /* yellow-light */
 .yellow-light {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     color: gold;
     border: 2px black solid;
     background-color: #DAA520;
+    cursor: pointer;
 }
 
 /* .yellow-light:hover {
@@ -136,11 +142,12 @@ body {
 
 /* blue light */
 .blue-light {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     color: blue;
     border: 2px black solid;
     background-color: blue;
+    cursor: pointer;
 }
 
 /* .blue-light:hover {
@@ -153,17 +160,20 @@ body {
 
 /* start game button */
 .start-game-button {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 2px white solid;
     position: absolute;
-    top: 173px;
-    left: 173px;
+    top: 210px;
+    left: 207px;
     background-color: black;
     color: white;
     cursor: pointer;
     transition: 1s;
+    font-size: 30px;
+    font-family: inherit;
+    
 } 
 
 .start-game-button:hover {
