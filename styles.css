@@ -66,8 +66,8 @@ body {
 
 /* the outer circle of the gameboard */
 .outer-circle {
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     border: 2px solid white;
     margin: 0px auto;
     border-radius: 50%;
@@ -82,8 +82,8 @@ body {
 
 /* green piece */
 .green-light {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     color: green;
     border: 2px black solid;
     background-color: green;
@@ -101,11 +101,11 @@ body {
 
 /* red light */
 .red-light {
-    width: 300px;
-    height: 300px;
-    color: crimson;
+    width: 400px;
+    height: 400px;
+    color: red;
     border: 2px black solid;
-    background-color: crimson;
+    background-color: red;
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@ body {
 } */
 
 .red-light.active {
-    background-color: red; 
+    background-color: #ff7f7f; 
 }
 
 /* the second row */
@@ -124,8 +124,8 @@ body {
 
 /* yellow-light */
 .yellow-light {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     color: gold;
     border: 2px black solid;
     background-color: #DAA520;
@@ -142,8 +142,8 @@ body {
 
 /* blue light */
 .blue-light {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     color: blue;
     border: 2px black solid;
     background-color: blue;
@@ -165,8 +165,8 @@ body {
     border-radius: 50%;
     border: 2px white solid;
     position: absolute;
-    top: 210px;
-    left: 207px;
+    top: 309px;
+    left: 309px;
     background-color: black;
     color: white;
     cursor: pointer;
