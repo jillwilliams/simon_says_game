@@ -45,7 +45,6 @@ body {
 .directions h3 {
     text-align: center;
     font-size: 50px;
-    margin-bottom: 50px;
 }
 
 /* the div for start button */
@@ -67,8 +66,8 @@ body {
 
 /* the outer circle of the gameboard */
 .outer-circle {
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     border: 2px solid white;
     margin: 0px auto;
     border-radius: 50%;
@@ -83,8 +82,8 @@ body {
 
 /* green piece */
 .green-light {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     color: green;
     border: 2px black solid;
     background-color: green;
@@ -102,8 +101,8 @@ body {
 
 /* red light */
 .red-light {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     color: red;
     border: 2px black solid;
     background-color: red;
@@ -125,8 +124,8 @@ body {
 
 /* yellow-light */
 .yellow-light {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     color: gold;
     border: 2px black solid;
     background-color: #DAA520;
@@ -143,8 +142,8 @@ body {
 
 /* blue light */
 .blue-light {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     color: blue;
     border: 2px black solid;
     background-color: blue;
@@ -166,8 +165,8 @@ body {
     border-radius: 50%;
     border: 2px white solid;
     position: absolute;
-    top: 309px;
-    left: 309px;
+    top: 260px;
+    left: 260px;
     background-color: black;
     color: white;
     cursor: pointer;
